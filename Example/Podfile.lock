@@ -1,0 +1,14 @@
+PODS:
+  - RTCloudKit (0.1.0)
+
+DEPENDENCIES:
+  - RTCloudKit (from `../`)
+
+EXTERNAL SOURCES:
+  RTCloudKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RTCloudKit: 4d9c1bec5868e8d12c714f8ebbf08d90f6375923
+
+COCOAPODS: 0.39.0

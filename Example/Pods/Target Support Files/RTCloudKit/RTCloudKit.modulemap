@@ -1,0 +1,6 @@
+framework module RTCloudKit {
+  umbrella header "RTCloudKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
