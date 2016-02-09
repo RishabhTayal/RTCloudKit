@@ -7,18 +7,24 @@
 //
 
 import UIKit
+import RTCloudKit
+import CloudKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let recordId = CKRecordID(recordName: "name")
+        RTCloudKit.sharedInstance.fetchRecordRecordWithID(recordId) { (object, error) -> Void in
+            print(object)
+        }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 }
 
