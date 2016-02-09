@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RTCloudKit"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Easy to use iOS wrapper library for Apple's CloudKit framework."
 
 # This description is used to generate tags and improve search results.
