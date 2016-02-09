@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'RTCloudKit_Example', :exclusive => true do
+  pod 'RTCloudKit', :path => '../'
+end
+
+target 'RTCloudKit_Tests', :exclusive => true do
+  pod 'RTCloudKit', :path => '../'
+
+  
+end
