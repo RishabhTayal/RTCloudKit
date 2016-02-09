@@ -1,6 +1,6 @@
 # RTCloudKit
 
-[![CI Status](http://img.shields.io/travis/Rishabh Tayal/RTCloudKit.svg?style=flat)](https://travis-ci.org/Rishabh Tayal/RTCloudKit)
+[![CI Status](http://img.shields.io/travis/rishabhtayal/RTCloudKit.svg?style=flat)](https://travis-ci.org/rishabhtayal/RTCloudKit)
 [![Version](https://img.shields.io/cocoapods/v/RTCloudKit.svg?style=flat)](http://cocoapods.org/pods/RTCloudKit)
 [![License](https://img.shields.io/cocoapods/l/RTCloudKit.svg?style=flat)](http://cocoapods.org/pods/RTCloudKit)
 [![Platform](https://img.shields.io/cocoapods/p/RTCloudKit.svg?style=flat)](http://cocoapods.org/pods/RTCloudKit)
