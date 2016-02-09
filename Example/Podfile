@@ -7,6 +7,4 @@ end
 
 target 'RTCloudKit_Tests', :exclusive => true do
   pod 'RTCloudKit', :path => '../'
-
-  
 end

@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "summary": "A short description of RTCloudKit.",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/RTCloudKit",
+  "homepage": "https://github.com/rishabhtayal/RTCloudKit",
   "license": "MIT",
   "authors": {
     "Rishabh Tayal": "rtayal11@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/RTCloudKit.git",
+    "git": "https://github.com/rishabhtayal/RTCloudKit.git",
     "tag": "0.1.0"
   },
   "platforms": {

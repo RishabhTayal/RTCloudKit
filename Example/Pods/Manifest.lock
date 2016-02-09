@@ -6,9 +6,9 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   RTCloudKit:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  RTCloudKit: 4d9c1bec5868e8d12c714f8ebbf08d90f6375923
+  RTCloudKit: 6bc6ff385c6a009195b65da28824077c25cee00b
 
 COCOAPODS: 0.39.0

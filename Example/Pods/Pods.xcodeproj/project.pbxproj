@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E88A57C79E33838547EA86FFDB7E032 /* RTCloudKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE99CEF08EBDF49E04665FFDBEE4CFA /* RTCloudKit-dummy.m */; };
+		2CB4CA308751A15AB70D6457752823CC /* RTCloudKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE99CEF08EBDF49E04665FFDBEE4CFA /* RTCloudKit-dummy.m */; };
 		2FE63F16E44C84D33546A6A23BC76E4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		3472E58779C9D51C514CD4DD0FB27F23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		3B1C30632E27FB0709EC980E1F84279C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		457524BF25307FC27425674190408495 /* Pods-RTCloudKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 928A5708332D78A9AB50CD4C7D5877AE /* Pods-RTCloudKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56B2C92D2955EBAB995615C7ECF71FB4 /* RTCloudKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E85B38D759A50ABF9717032036F822 /* RTCloudKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E62A04E220CAF9F6C792E54C96AE0F2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB5927B20CA5D0ED506CC63134BDD22 /* ReplaceMe.swift */; };
+		95B2F33E8B166E68FB58EC0A8C871DF8 /* RTAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADFE00FB4251E0109DCF5485379A62 /* RTAsset.swift */; };
 		9D875E360C0ADF521B514929EBD2F306 /* RTCloudKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B8FDF0FD85108FE0A93436CAFB0A166 /* RTCloudKit.bundle */; };
+		CE40149E8EF17BBED14CE1CFCA423902 /* RTCloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EB0CC821A27E1ADF712FF880C49DF8 /* RTCloudKit.swift */; };
 		E216AC77EE824D87F886FE0C4DF70BFB /* Pods-RTCloudKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC404BF13788BB925CE40217DB30CE3C /* Pods-RTCloudKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5288645FA25765EB43B5D9CE0E56075 /* Pods-RTCloudKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A961667F2AFEE722BF19F73419FF491 /* Pods-RTCloudKit_Tests-dummy.m */; };
+		ECA2EA07A40B78B83DEEEEDC866EA141 /* RTRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA53FDD27E9AD7B8865DA67500DCD23 /* RTRecord.swift */; };
 		F1FF7A5C253997F96F3FAD815F56F1BD /* Pods-RTCloudKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DD2275D873FB035B8317B8A51DECE5 /* Pods-RTCloudKit_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,7 @@
 		2A961667F2AFEE722BF19F73419FF491 /* Pods-RTCloudKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTCloudKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		2AB1D5E24B5C130469C9ACE7432D410D /* Pods-RTCloudKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RTCloudKit_Example.modulemap"; sourceTree = "<group>"; };
 		36B9DCF4C37825436D4DC787F99AEEDC /* Pods-RTCloudKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTCloudKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AADFE00FB4251E0109DCF5485379A62 /* RTAsset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RTAsset.swift; sourceTree = "<group>"; };
 		3C1880FE740FD730BDE83E8010EB1A76 /* RTCloudKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTCloudKit.xcconfig; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4AE99CEF08EBDF49E04665FFDBEE4CFA /* RTCloudKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTCloudKit-dummy.m"; sourceTree = "<group>"; };
@@ -62,9 +65,10 @@
 		79DD2275D873FB035B8317B8A51DECE5 /* Pods-RTCloudKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTCloudKit_Example-dummy.m"; sourceTree = "<group>"; };
 		7A9A3C91662B176AF8FAD10865C9188E /* Pods-RTCloudKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTCloudKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7D41F2C930E13F4B866F8A07443179E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA53FDD27E9AD7B8865DA67500DCD23 /* RTRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RTRecord.swift; sourceTree = "<group>"; };
 		8B8FDF0FD85108FE0A93436CAFB0A166 /* RTCloudKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTCloudKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DB5927B20CA5D0ED506CC63134BDD22 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		928A5708332D78A9AB50CD4C7D5877AE /* Pods-RTCloudKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTCloudKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		94EB0CC821A27E1ADF712FF880C49DF8 /* RTCloudKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RTCloudKit.swift; sourceTree = "<group>"; };
 		9AAB3C7BCDFFC494CADA2631E260D67B /* Pods-RTCloudKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTCloudKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A3DAC7E553C60CE6144E31A69DC77105 /* Pods-RTCloudKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTCloudKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		ADD4E265F7FEFB5C879838A593904CA6 /* RTCloudKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTCloudKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +128,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		2A91CA7C9A9C199D727434F9F9B3EB99 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3AADFE00FB4251E0109DCF5485379A62 /* RTAsset.swift */,
+				94EB0CC821A27E1ADF712FF880C49DF8 /* RTCloudKit.swift */,
+				7FA53FDD27E9AD7B8865DA67500DCD23 /* RTRecord.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		2D6A1AAD28F377862AFE4202391B0889 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,18 +152,10 @@
 			path = "Example/Pods/Target Support Files/RTCloudKit";
 			sourceTree = "<group>";
 		};
-		5263B4FB9B77810A4F1873EED403F8D3 /* Classes */ = {
+		3630ABC2A387F48132624145C57B7C95 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8DB5927B20CA5D0ED506CC63134BDD22 /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		5C2EE21268A61FB185FC79588B24526F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5263B4FB9B77810A4F1873EED403F8D3 /* Classes */,
+				2A91CA7C9A9C199D727434F9F9B3EB99 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -197,7 +203,7 @@
 		A4DC57E1DEAFADA78D47DC36FC645CBE /* RTCloudKit */ = {
 			isa = PBXGroup;
 			children = (
-				5C2EE21268A61FB185FC79588B24526F /* Pod */,
+				3630ABC2A387F48132624145C57B7C95 /* Pod */,
 				2D6A1AAD28F377862AFE4202391B0889 /* Support Files */,
 			);
 			name = RTCloudKit;
@@ -333,7 +339,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA516DDF086E61F6B590591CACB5D79C /* Build configuration list for PBXNativeTarget "RTCloudKit" */;
 			buildPhases = (
-				3F5AF615C36A062A4E88BDB18B6E42B6 /* Sources */,
+				87F51A984C6B2841B5EEA1BBE6762C6E /* Sources */,
 				E8386CA32BA7CCB2E30DB2D20F787929 /* Frameworks */,
 				11B4C00F0361E88FE4C5937DC1B18858 /* Resources */,
 				8D1C779CEDC58B2FDDB57AD431F94B37 /* Headers */,
@@ -412,19 +418,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F5AF615C36A062A4E88BDB18B6E42B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8E62A04E220CAF9F6C792E54C96AE0F2 /* ReplaceMe.swift in Sources */,
-				0E88A57C79E33838547EA86FFDB7E032 /* RTCloudKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		857BAD35E54F7FB49AC907B72E26BBFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F51A984C6B2841B5EEA1BBE6762C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B2F33E8B166E68FB58EC0A8C871DF8 /* RTAsset.swift in Sources */,
+				2CB4CA308751A15AB70D6457752823CC /* RTCloudKit-dummy.m in Sources */,
+				CE40149E8EF17BBED14CE1CFCA423902 /* RTCloudKit.swift in Sources */,
+				ECA2EA07A40B78B83DEEEEDC866EA141 /* RTRecord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '75B99FB6E524F474289F9995'
+               BlueprintIdentifier = '7829088F0C46B56722B1182E'
                BlueprintName = 'RTCloudKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'RTCloudKit.framework'>
