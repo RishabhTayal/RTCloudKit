@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         let recordId = CKRecordID(recordName: "name")
         RTCloudKit.sharedInstance.fetchRecordRecordWithID(recordId) { (object, error) -> Void in
             print(object)
+            print(error)
         }
     }
     
