@@ -59,4 +59,12 @@ public class RTCloudKit: NSObject {
             })
         }
     }
+    
+    public func performQuery(query: CKQuery, inZoneWithID zoneId: CKRecordZoneID? = nil, completionHandler: RTArrayResultBlock) {
+        publicDB.performQuery(query, inZoneWithID: zoneId) { (objects: [CKRecord]?, error: NSError?) -> Void in
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                completionHandler(objects: objects, error: error)
+            })
+        }
+    }
 }

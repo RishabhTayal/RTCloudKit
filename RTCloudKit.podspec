@@ -9,15 +9,14 @@
 Pod::Spec.new do |s|
   s.name             = "RTCloudKit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of RTCloudKit."
+  s.summary          = "Easy to use iOS wrapper library for Apple's CloudKit framework."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+#s.description      = "Easy to use iOS wrapper library for Apples CloudKit framework."
 
   s.homepage         = "https://github.com/rishabhtayal/RTCloudKit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
