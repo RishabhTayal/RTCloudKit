@@ -14,12 +14,33 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+###Cocoapods
+
 RTCloudKit is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "RTCloudKit"
 ```
+
+### Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
+
+```bash
+$ brew update
+$ brew install carthage
+```
+
+To integrate RTCloudKit into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "RishabhTayal/RTCloudKit"
+```
+
+Run `carthage update` to build the framework and drag the built `RTCloudKit.framework` into your Xcode project.
 
 ## Author
 
