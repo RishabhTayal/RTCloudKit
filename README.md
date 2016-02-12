@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/RTCloudKit.svg?style=flat)](http://cocoapods.org/pods/RTCloudKit)
 [![License](https://img.shields.io/cocoapods/l/RTCloudKit.svg?style=flat)](http://cocoapods.org/pods/RTCloudKit)
 [![Platform](https://img.shields.io/cocoapods/p/RTCloudKit.svg?style=flat)](http://cocoapods.org/pods/RTCloudKit)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ## Usage
 
